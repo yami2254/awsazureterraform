@@ -1,0 +1,4 @@
+00. 환경 구성
+ 00-1. Terraform(VScode)
+ 00-2. AWS 환경 구성
+ 00-3. Azure 환경 구성
