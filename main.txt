@@ -1,4 +1,62 @@
 00. 환경 구성
- 00-1. Terraform(VScode)
- 00-2. AWS 환경 구성
- 00-3. Azure 환경 구성
+ 00-1. VScode
+	설치
+	Plug-in 설치
+ 00-2. Terraform
+	설치
+ 00-3. AWS 환경 구성
+	계정 생성
+	S3 생성 (Terraform State 파일 저장용)
+ 00-4. Azure 환경 구성
+	계정 생성
+	Storage Account 생성 (Terraform State 파일 저장용)
+01. Tenant / 계정 / 권한..? ???
+ 01-1. AWS ?
+	Account
+	Organization
+	SCP
+	IAM
+ 01-2. Azure?
+	Subscription
+	Management Group
+	Tenant
+	Policy
+	RBAC
+ 01-3. AWS vs Azure
+	각각 차이
+01. 자원별 학습
+ 01-1. VPC / VNet
+	VPC?(개념, 특징, Console에서 기능)
+	VNet?(개념, 특징, Portal에서 기능)
+	VPC vs VNet(비교)
+	Terraform 구성하기
+ 01-2. Security Group / Network Security Group
+	SG?(개념, 특징, Console에서 기능)
+	NSG?(개념, 특징, Portal에서 기능)
+	SG vs NSG(비교)
+	Terraform 구성하기
+ 01-3. Elastic Block Storage / Managed Disk
+	EBS?(개념, 특징, Console에서 기능)
+	MD?(개념, 특징, Portal에서 기능)
+	EBS vs MD(비교)
+	Terraform 구성하기
+ 01-4. Elastic Compute / Virtual Machine
+	EC2?(개념, 특징, Console에서 기능)
+	VM?(개념, 특징, Portal에서 기능)
+	EC2 vs VM(비교)
+	Terraform 구성하기
+ 01-5. ?ELB? / LB
+	ELB?(개념, 특징, Console에서 기능)
+	LB?(개념, 특징, Portal에서 기능)
+	ELB vs LB(비교)
+	Terraform 구성하기
+ 01-6. Simple Sotrage Service / Storage Account
+	S3?(개념, 특징, Console에서 기능)
+	SA?(개념, 특징, Portal에서 기능)
+	S3 vs SA(비교)
+	Terraform 구성하기
+03. 서비스 학습
+ 03-1. 이중화된 웹서비스(VM / EC2)
+	LB, VM
+ 03-2. Serverless 웹서비스(Lambda / Function)
+ 03-3. AI?
